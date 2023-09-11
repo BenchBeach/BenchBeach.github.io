@@ -64,29 +64,343 @@
   ],
   "awards": [
     {
-      "title": "Nobel Prize in Physics",
-      "date": "1921-11-01",
-      "awarder": "Royal Swedish Academy of Sciences",
-      "summary": "The Nobel Prizes are five separate prizes that, according to Alfred Nobel's will of 1895, are awarded to 'those who, during the preceding year, have conferred the greatest benefit to humankind.'"
+      "title": "ACM SIGSOFT Distinguished Paper Award, ASE 2022",
+      "date":"2022"
+    },
+    {
+      "title": "ISSRE 2022 Distinguished Reviewer Award",
+      "date":"2022"
+    },
+    {
+      "title": "ISSRE 2021 Best Research Paper Award",
+      "date":"2022"
+    },
+    {
+      "title": "ACM SIGSOFT Distinguished Paper Award, FSE 2021 ",
+      "date":"2021"
+    },
+    {
+      "title": "Distinguished Reviewer Award, Journal of Software 2021",
+      "date":"2021"
+    },
+    {
+      "title": "ACM SIGSOFT Distinguished Paper Award, FSE 2020 ",
+      "date":"2020"
+    },
+    {
+      "title": "CCF Outstanding Doctoral Dissertation Award ",
+      "summary":"the highest award for PhD graduate in China with less than 10 awards for all disciplines of computer science per year",
+      "date":"2019"
+    },
+    {
+      "title": "ACM SIGSOFT Distinguished Paper Award, ASE 2019 ",
+      "date":"2019"
     }
+    ,
+    {
+      "title": " ACM SIGSOFT Distinguished Paper Award, ISSTA 2019",
+      "date":"2019"
+    }
+    ,
+    {
+      "title": "Outstanding Graduate of Beijing, China",
+      "date":"2019"
+    },
+    {
+      "title": "Outstanding Graduate of Peking University",
+      "date":"2019"
+    },
+    {
+      "title": " Outstanding Doctoral Dissertation Award in Peking University",
+      "date":"2019"
+    },
+    {
+      "title": "President Fellowship",
+      "summary":"one of the highest fellowships in EECS, Peking University",
+      "date":"2018"
+    },
+    {
+      "title": "National Scholarship",
+      "date":"2018"
+    },
+    {
+      "title": "President Fellowship",
+      "summary":"one of the highest fellowships in EECS, Peking University",
+      "date":"2017"
+    },
+    {
+      "title": "Qualcomm Fellowship",
+      "summary":"one of the highest fellowships in EECS, Peking University",
+      "date":"2017"
+    },
+    {
+      "title": "President Fellowship",
+      "summary":"one of the highest fellowships in EECS, Peking University",
+      "date":"2016"
+    },
+    {
+      "title": "President Fellowship",
+      "summary":"one of the highest fellowships in EECS, Peking University",
+      "date":"2015"
+    },
+    {
+      "title": "Merit Student in Peking University",
+      "date":"2015"
+    },
+    {
+      "title": "President Fellowship",
+      "summary":"one of the highest fellowships in EECS, Peking University",
+      "date":"2014"
+    },
+    {
+      "title": "Outstanding Graduate of Beijing, China",
+      "summary":"Bachelor degree",
+      "date":"2014"
+    },
+    {
+      "title": "etc.",
+      "summary":"there were also many honers & awards when I was an undergraduate, such as National Scholarship, Merit Student, etc.",
+      "date":"before 2014"
+    }
+    // {
+    //   "title": "Nobel Prize in Physics",
+    //   "date": "1921-11-01",
+    //   "awarder": "Royal Swedish Academy of Sciences",
+    //   "summary": "The Nobel Prizes are five separate prizes that, according to Alfred Nobel's will of 1895, are awarded to 'those who, during the preceding year, have conferred the greatest benefit to humankind.'"
+    // }
   ],
   "certificates": [],
   "publications": [],
   "skills": [],
-  "languages": [
+  "languages": [],
+  "interests": [
     {
-      "language": "German",
-      "fluency": "Native speaker"
+      "name":"Software Maintenance",
+      "keywords":["Mainly focusing on AIOps (based on Machine Learning and Deep Learning techniques for software maintenance)"]
     },
     {
-      "language": "English",
-      "fluency": "Fluent"
+      "name":"Software Testing and Debugging",
+      "keywords":["Mainly focusing on Data-Driven Software Testing, Compiler Testing, Trusted AI, Regression Testing, Automated Debugging"]
     }
   ],
-  "interests": [
-    "Software Testing and Debugging: Mainly focusing on Data-Driven Software Testing, Compiler Testing, Trusted AI, Regression Testing, Automated Debugging",
-    "Software Maintenance: Mainly focusing on AIOps (based on Machine Learning and Deep Learning techniques for software maintenance)"
-  ],
   "references": [],
-  "projects": []
+  "projects": [],
+  "AcademicServices":[
+    {
+      "title": "ASE Review Process co-Chair",
+      "date":"2021"
+    },
+    {
+      "title": "RESS 2021 Program co-Chair (colocated with ISSRE 2021)",
+      "date":"2021"
+    },
+    {
+      "title": "Co-organizer of Dagstuhl seminar 17502 \"Testing and Verification of Compilers\" with Alastair F. Donaldson (Imperial College London), Andreas Zeller (Saarland University), and Hongyu Zhang (Microsoft Research Asia)",
+      "date":"2017"
+    },
+    {
+      "title": " FSE Program Committee (PC) member",
+      "date":"2024"
+    },
+    {
+      "title": " ISSTA Program Committee (PC) member",
+      "date":"2024"
+    },
+    {
+      "title": " ICSE Program Committee (PC) member",
+      "date":"2024"
+    },
+    {
+      "title": "ASE Program Committee (PC) member",
+      "date":"2023"
+    },
+    {
+      "title": "FSE Program Committee (PC) member",
+      "date":"2023"
+    },
+    {
+      "title": "ISSTA Program Committee (PC) member",
+      "date":"2023"
+    },
+    {
+      "title": " ICSE NIER Committee member",
+      "date":"2023"
+    },
+    {
+      "title": "ASE Industry Challenge Trace Committee member",
+      "date":"2023"
+    },
+    {
+      "title": "SANER Program Committee (PC) member",
+      "date":"2023"
+    },
+    {
+      "title": "ICST Program Committee (PC) member",
+      "date":"2023"
+    },
+    {
+      "title": "Internetware Program Committee (PC) member",
+      "date":"2023"
+    },
+    {
+      "title": "TOSEM reviewer",
+      "date":"2023"
+    },
+    {
+      "title": "ASE Program Committee (PC) member",
+      "date":"2022"
+    },
+    {
+      "title": "FSE Program Committee (PC) member",
+      "date":"2022"
+    },
+    {
+      "title": "ICSE Poster Committee member",
+      "date":"2022"
+    },
+    {
+      "title": "ISSRE Program Committee (PC) member",
+      "date":"2022"
+    },
+    {
+      "title": "SANER Program Committee (PC) member",
+      "date":"2022"
+    },
+    {
+      "title": "EASE Program Committee (PC) member",
+      "date":"2022"
+    },
+    {
+      "title": " COMPSAC Program Committee (PC) member",
+      "date":"2022"
+    },
+    {
+      "title": "APSEC Program Committee (PC) member",
+      "date":"2022"
+    },
+    {
+      "title": "QRS Program Committee (PC) member",
+      "date":"2022"
+    },
+    {
+      "title": "TSE, TOSEM, TDSC reviewers",
+      "date":"2022"
+    },
+    {
+      "title": "TSE, TOSEM, STVR, EMSE, JSS reviewers",
+      "date":"2021"
+    },
+    {
+      "title": "ASE Program Committee (PC) member",
+      "date":"2021"
+    },
+    {
+      "title": "ISSTA Program Committee (PC) member",
+      "date":"2021"
+    },
+    {
+      "title": "ISSTA Tool Demo Committee member",
+      "date":"2021"
+    },
+    {
+      "title": "COMPSAC Program Committee (PC) member",
+      "date":"2021"
+    },
+    {
+      "title": "EASE Program Committee (PC) member",
+      "date":"2021"
+    },
+    {
+      "title": "QRS Program Committee (PC) member",
+      "date":"2021"
+    },
+    {
+      "title": "TSE, TR, JCST, JOS reviewers",
+      "date":"2020"
+    },
+    {
+      "title": "ASE Tool Demo Committee member",
+      "date":"2020"
+    },
+    {
+      "title": "ISSTA Tool Demo Committee member",
+      "date":"2020"
+    },
+    {
+      "title": "APSEC Program Committee (PC) member",
+      "date":"2020"
+    },
+    {
+      "title": "QRS Program Committee (PC) member",
+      "date":"2020"
+    },
+    {
+      "title": " COMPSAC Program Committee (PC) member",
+      "date":"2020"
+    },
+    {
+      "title": "SNPD Program Committee (PC) member",
+      "date":"2020"
+    },
+    {
+      "title": "SSBSE New Ideas and Emerging Results Committee member",
+      "date":"2020"
+    },
+    {
+      "title": "TSE, STVR reviewers",
+      "date":"2019"
+    },
+    {
+      "title": "QRS Program Committee (PC) member",
+      "date":"2019"
+    },
+    {
+      "title": "COMPSAC Program Committee (PC) member",
+      "date":"2019"
+    },
+    {
+      "title": " SATE Program Committee (PC) member",
+      "date":"2019"
+    },
+    {
+      "title": "ISSTA Tool Demo Committee member",
+      "date":"2019"
+    },
+    {
+      "title": "ISSTA Artifact Evaluation Committee (AEC) member",
+      "date":"2019"
+    },
+    {
+      "title": "ECOOP External Review Committee (ERC) member",
+      "date":"2019"
+    },
+    {
+      "title": "TSE reviewer",
+      "date":"2018"
+    },
+    {
+      "title": "QRS Program Committee (PC) member",
+      "date":"2018"
+    },
+    {
+      "title": "SATE Program Committee (PC) member",
+      "date":"2018"
+    },
+    {
+      "title": "OOPSLA co-reviewer, ASE co-reviewer, TSE co-reviewer, SPLC co-reviewer, Journal of Software co-reviewer",
+      "date":"2017"
+    },
+    {
+      "title": "TSE co-reviewer, FASE co-reviewer, SPLC volunteer",
+      "date":"2016"
+    },
+    {
+      "title": "Internetware co-reviewer",
+      "date":"2015"
+    },
+    {
+      "title": "AWASE volunteer",
+      "date":"2014"
+    }
+  ]
 }

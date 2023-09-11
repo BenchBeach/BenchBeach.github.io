@@ -1,0 +1,55 @@
+---
+layout: default
+---
+<!-- AcademicServices.html -->
+        <div class="post">
+
+          <header class="post-header">
+            <h1 class="post-title">{{ page.title }}</h1>
+            <p class="post-description">{{ page.description }}</p>
+          </header>
+
+          <article>
+            <div class="card mt-3 p-3">
+                <!-- <h3 class="card-title font-weight-medium">{{ page.title }}</h3> -->
+                {%- assign servelists = page.content | split:"
+                " -%}
+                <ul class="card-text font-weight-light list-group list-group-flush">
+                    {%- for content in site.data.resume.AcademicServices -%}
+                    <li class="list-group-item">
+                      <div class="row">
+                        <div class="col-xs-2 cl-sm-2 col-md-2 text-center" style="width: 75px;">
+                          {% if content.date %}
+                          {% assign date = content.date | split: "-" | join: "." %}
+                          {% else %}
+                          {% assign date = "" %}
+                          {% endif %}
+                          <span class="badge font-weight-bold danger-color-dark text-uppercase align-middle" style="min-width: 75px;">
+                            {{ date }}
+                          </span>
+                        </div>
+                        <div class="col-xs-10 cl-sm-10 col-md-10 mt-2 mt-md-0">
+                          <h6 class="title font-weight-bold ml-1 ml-md-4"><a href="{{ content.url }}">{{content.title}}</a></h6>
+                          <h6 class="ml-1 ml-md-4" style="font-size: 0.95rem;">{{content.awarder}}</h6>
+                          <h6 class="ml-1 ml-md-4" style="font-size: 0.95rem; font-style: italic;">{{content.summary}}</h6>
+                        </div>
+                      </div>
+                    </li>
+                    {% endfor %}
+                  </ul>
+              </div>
+              
+          </article>
+
+          {%- if page.related_publications != null and page.related_publications.size > 0 -%}
+          {% assign publications = page.related_publications | replace: ", ", "," | split: "," | join: "|" %}
+          <h2>References</h2>
+          <div class="publications">
+            {% bibliography -f {{ site.scholar.bibliography }} -q @*[key^={{ publications }}]* %}
+          </div>
+          {%- endif %}
+
+          {%- if site.giscus.repo and page.giscus_comments -%}
+            {% include giscus.html %}
+          {%- endif -%}
+        </div>
