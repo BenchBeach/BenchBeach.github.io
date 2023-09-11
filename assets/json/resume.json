@@ -1,12 +1,8 @@
 {
   "basics": {
-    "name": "Albert Einstein",
-    "label": "Scientist",
-    "image": "",
-    "email": "albert@einstein.de",
-    "phone": "(912) 123-4567",
-    "url": "https://alshedivat.github.io/al-folio/",
-    "summary": "A German-born theoretical physicist, widely ranked among the greatest and most influential scientists of all time",
+    "name": " Junjie Chen (陈 俊洁)  ",
+    "email": "junjiechen@tju.edu.cn",
+    "summary": "",
     "location": {
       "address": "2712 Broadway St",
       "postalCode": "CA 94115",
@@ -24,29 +20,45 @@
   },
   "work": [
     {
-      "name": "Institute for Advanced Study, Princeton University",
-      "position": "Professor of Theoretical Physics",
-      "url": "https://example.com",
-      "startDate": "1933-01-01",
-      "endDate": "1955-01-01",
-      "summary": "Teaching at Palmer Physical Laboratory (now 302 Frist Campus Center). While not a professor at Princeton, I associated with the physics professors and continued to give lectures on campus.",
+      "name": "College of Intelligence and Computing, Tianjin University",
+      "position": "Tenured Associate Professor (研究员、长聘副教授) \n Leader of Software Engineering Team (软件工程团队负责人)",
+      "startDate": "2019",
+      "endDate": "NOW",
+      "summary": "",
       "highlights": [
-        "Relativity"
       ]
     }
   ],
   "volunteer": [],
   "education": [
     {
-      "institution": "University of Zurich, Zurich, Switzerland",
-      "url": "https://www.uzh.ch/",
-      "area": "Software Development",
+      "institution": "Peking University",
+      "area": "PhD student in computer science under the supervision of Prof. Bing Xie, Prof. Lu Zhang, Prof. Dan Hao  and Prof. Yingfei Xiong",
       "studyType": "PhD",
-      "startDate": "1905-01-01",
-      "endDate": "1905-01-01",
+      "startDate": "09/2014",
+      "endDate": "07/2019",
       "score": "",
       "courses": [
-        "Theory of Relativity"
+      ]
+    },
+    {
+      "institution": " The University of Texas at Dallas",
+      "area": "visiting PhD student in computer science under the supervision of Prof. Lingming Zhang",
+      "studyType": "visiting PhD",
+      "startDate": "11/2016",
+      "endDate": "03/2017",
+      "score": "",
+      "courses": [
+      ]
+    },
+    {
+      "institution": "Beihang University",
+      "area": "Bachelor diploma of software engineering",
+      "studyType": "Bachelor",
+      "startDate": "09/2010",
+      "endDate": "07/2014",
+      "score": "",
+      "courses": [
       ]
     }
   ],
@@ -71,7 +83,10 @@
       "fluency": "Fluent"
     }
   ],
-  "interests": [],
+  "interests": [
+    "Software Testing and Debugging: Mainly focusing on Data-Driven Software Testing, Compiler Testing, Trusted AI, Regression Testing, Automated Debugging",
+    "Software Maintenance: Mainly focusing on AIOps (based on Machine Learning and Deep Learning techniques for software maintenance)"
+  ],
   "references": [],
   "projects": []
 }
