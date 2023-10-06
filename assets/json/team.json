@@ -1,21 +1,21 @@
 {
-    "PhD":[
-        {
-            "name":"高树韬",
-            "img":"./assets/teamimg/gst.jpg",
-            "description":"2019级博士"
-        }
-    ],
-    "Postgraduate":[
-        {
-            "name":"高树韬",
-            "img":"./assets/teamimg/gst.jpg",
-            "description":"2023级硕士"
-        },
-        {
-            "name":"CAT",
-            "img":"./assets/teamimg/cat.jpg",
-            "description":"2023级硕士"
-        }
-    ]
+    // "PhD":[
+    //     {
+    //         "name":"高树韬",
+    //         "img":"./assets/teamimg/gst.jpg",
+    //         "description":"2019级博士"
+    //     }
+    // ],
+    // "Postgraduate":[
+    //     {
+    //         "name":"高树韬",
+    //         "img":"./assets/teamimg/gst.jpg",
+    //         "description":"2023级硕士"
+    //     },
+    //     {
+    //         "name":"CAT",
+    //         "img":"./assets/teamimg/cat.jpg",
+    //         "description":"2023级硕士"
+    //     }
+    // ]
 }
