@@ -2,7 +2,8 @@
 layout: about
 title: about
 permalink: /
-subtitle: College of Intelligence and Computing, Tianjin University  
+subtitle: >
+  College of Intelligence and Computing, Tianjin University  
 
 profile:
   align: right
@@ -17,6 +18,7 @@ latest_posts: true  # includes a list of the newest posts
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
+#### 国家优青
 **Tenured Associate Professor (研究员、长聘副教授)**  
   
 **Leader of Software Engineering Team (软件工程团队负责人)**  

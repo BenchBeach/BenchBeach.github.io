@@ -8,7 +8,7 @@ first_name: Junjie
 last_name: Chen
 email: junjiechen@tju.edu.cn
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  College of Intelligence and Computing, Tianjin University.
+  College of Intelligence and Computingasdasd, Tianjin University.
 footer_text: >
   Junjie Chen's Homepage.
 keywords: jekyll, jekyll-theme, academic-website, portfolio-website  # add your own keywords or leave empty
