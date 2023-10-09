@@ -45,7 +45,9 @@ layout: default
           {% if page.news and site.announcements.enabled -%}
             <h2><a href="{{ '/news/' | relative_url }}" style="color: inherit;">news</a></h2>
             {%- include news.html limit=true %}
+            <h5><a href="{{ '/news/' | relative_url }}" style="color: red;">More news ></a></h5>
           {%- endif %}
+
 
           <!-- Latest posts -->
           {% if page.latest_posts.enable -%}
@@ -58,6 +60,61 @@ layout: default
             <h2><a href="{{ '/publications/' | relative_url }}" style="color: inherit;">selected publications</a></h2>
             {%- include selected_papers.html %}
           {%- endif %}
+
+          <!-- CV -->
+            <h2 style="margin-top: 36px;"><a href="{{ '/cv/' | relative_url }}" style="color: inherit;">CV</a></h2>
+            <div class="post">            
+              <article>
+                <div class="cv">
+                  {% for data in site.data.resume %}
+                    {% if data[0] == "awards" %}
+                      {% continue %}
+                    {% endif %}
+                    {% if site.jsonresume and site.jsonresume.size > 0 %}
+                      {% unless site.jsonresume contains data[0] %}
+                        {% continue %}
+                      {% endunless %}
+                    {% endif %}
+                    {% if data[0] == "meta" or data[1].size == 0 %}
+                      {% continue %}
+                    {% endif %}
+                    <a class="anchor" id="{{ data[0] }}"></a>
+                    <div class="card mt-3 p-3">
+                      <h3 class="card-title font-weight-medium">{{ data[0] | capitalize }}</h3>
+                      <div>
+                      {% case data[0] %}
+                        {% when "basics" %}
+                          {% include resume/basics.html %}
+                        {% when "education" %}
+                          {% include resume/education.html %}
+                        {% when "work" %}
+                          {% include resume/work.html %}
+                        {% when "volunteer" %}
+                          {% include resume/volunteer.html %}
+                        {% when "projects" %}
+                          {% include resume/projects.html %}
+                        {% when "awards" %}
+                          {% include resume/awards.html %}
+                        {% when "skills" %}
+                          {% include resume/skills.html %}
+                        {% when "publications" %}
+                          {% include resume/publications.html %}
+                        {% when "languages" %}
+                          {% include resume/languages.html %}
+                        {% when "interests" %}
+                          {% include resume/interests.html %}
+                        {% when "certificates" %}
+                          {% include resume/certificates.html %}
+                        {% else %}
+            
+                      {% endcase %}
+                      </div>
+                    </div>
+                  {% endfor %}
+                  </div>
+              </article>
+            
+            </div>
 
           <!-- Social -->
           {%- if page.social %}
